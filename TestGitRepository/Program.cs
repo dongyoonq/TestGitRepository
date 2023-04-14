@@ -32,7 +32,13 @@ namespace TestGitRepository
             */
 
             // #6 UpAndDown
-            UpAndDown.Run();
+            // UpAndDown.Run();
+
+            // #7 SlidePuzzleGame
+            SlidePuzzle.GetInstance().Init();
+            SlidePuzzle.GetInstance().PrintBoard();
+            SlidePuzzle.GetInstance().Run();
+
         }
     }
 }
