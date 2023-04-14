@@ -8,6 +8,9 @@ namespace TestGitRepository
         {
             // #1 StringFind
             StringFind.Find();
+
+            // #2 StringWordCountFind
+            FindWordCount.Find();
         }
     }
 }
