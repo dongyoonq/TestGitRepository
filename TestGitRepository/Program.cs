@@ -6,6 +6,7 @@ namespace TestGitRepository
     {
         static void Main(string[] args)
         {
+            /*
             // #1 StringFind
             StringFind.Find();
 
@@ -28,6 +29,10 @@ namespace TestGitRepository
             int[] result = FindCommonItems.Run(arr1, arr2, arr3);
             foreach(int item in result)
                 Console.WriteLine($"{item}");
+            */
+
+            // #6 UpAndDown
+            UpAndDown.Run();
         }
     }
 }
