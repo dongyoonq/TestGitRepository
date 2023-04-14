@@ -17,6 +17,9 @@ namespace TestGitRepository
                 Console.WriteLine("소수 입니다.");
             else
                 Console.WriteLine("소수가 아닙니다.");
+
+            // #4 SumOfDigits
+            SumOfDigits.Run(int.Parse(Console.ReadLine()));
         }
     }
 }
